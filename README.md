@@ -53,3 +53,13 @@ How well those variables describe the price of a car
 * Calculate r2 for test set	
 	
 **Conclusion**	
+* Features that drive the car price
+* aspiration - turbo car costlier than standard car (aspiration_turbo)
+* drivewheel - rear wheel drive costlier than otherr categories (drivewheel_rwd)
+* enginelocation - rear engine location is thrice as costlier as front (enginelocation_rear)
+* enginetype - dohcv are significant costlier (enginetype_dohcv)
+* fuel system - mpfi are coslier car (fuelsystem_mpfi)
+* bmw, mercury, porsche, buick and jaguar are costlier car ('carcompany_bmw','carcompany_buick','carcompany_jaguar').
+
+* Equation for car price based on best fit line is 
+𝑝𝑟𝑖𝑐𝑒=4307.98+2118.5934×𝑑𝑟𝑖𝑣𝑒𝑤ℎ𝑒𝑒𝑙(𝑟𝑤𝑑)+20500×𝑒𝑛𝑔𝑖𝑛𝑒𝑙𝑜𝑐𝑎𝑡𝑖𝑜𝑛(𝑟𝑒𝑎𝑟)+17160×𝑐𝑎𝑟𝑤𝑖𝑑𝑡ℎ+1972.3109×𝑓𝑢𝑒𝑙𝑠𝑦𝑠𝑡𝑒𝑚(𝑚𝑝𝑓𝑖)+11150×𝑐𝑎𝑟𝑐𝑜𝑚𝑝𝑎𝑛𝑦(𝑏𝑚𝑤)+12070×𝑐𝑎𝑟𝑐𝑜𝑚𝑝𝑎𝑛𝑦(𝑏𝑢𝑖𝑐𝑘)+12420×𝑐𝑎𝑟𝑐𝑜𝑚𝑝𝑎𝑛𝑦(𝑗𝑎𝑔𝑢𝑎𝑟)
